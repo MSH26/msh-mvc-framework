@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>globalController</servlet-name>
+		<servlet-class>mvc.systemfiles.systemclasses.controllers.GlobalController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>globalController</servlet-name>
+		<url-pattern>/mvc/*</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app>
+	
+	<!-- Registration Module -->
+	<mvc>
+		<module-name>registration</module-name>
+		<controller-name>BasicRegistration</controller-name>
+		<controller-absolute-name>mvc.controller.BasicRegistrationController</controller-absolute-name>
+		<model-name>UserModel</model-name>
+		<model-absolute-name>mvc.model.UserModel</model-absolute-name>
+		<view>/WEB-INF/view/registration/basicRegistration.jsp</view>
+	</mvc>
+	
+	<mvc>
+		<module-name>registration</module-name>
+		<controller-name>AdvancedRegistration</controller-name>
+		<controller-absolute-name>mvc.controller.AdvancedRegistrationController</controller-absolute-name>
+		<model-name>UserModel</model-name>
+		<model-absolute-name>mvc.model.UserModel</model-absolute-name>
+		<view>/WEB-INF/view/registration/advancedRegistration.jsp</view>
+	</mvc>
+	
+	<!-- Home Module -->
+	<mvc>
+		<module-name>home</module-name>
+		<controller-name>Home</controller-name>
+		<controller-absolute-name>mvc.controller.HomeController</controller-absolute-name>
+		<model-name>UserModel</model-name>
+		<model-absolute-name>mvc.model.UserModel</model-absolute-name>
+		<view>/WEB-INF/view/home/home.jsp</view>
+	</mvc>
+	
+	<!-- Account Modules -->
+	<mvc>
+		<module-name>account</module-name>
+		<controller-name>Login</controller-name>
+		<controller-absolute-name>mvc.controller.LoginController</controller-absolute-name>
+		<model-name>UserModel</model-name>
+		<model-absolute-name>mvc.model.UserModel</model-absolute-name>
+		<view>/WEB-INF/view/account/login.jsp</view>
+	</mvc>
+	
+	<mvc>
+		<module-name>account</module-name>
+		<controller-name>Logout</controller-name>
+		<controller-absolute-name>mvc.controller.LogoutController</controller-absolute-name>
+		<model-name>UserModel</model-name>
+		<model-absolute-name>mvc.model.UserModel</model-absolute-name>
+		<view>/WEB-INF/view/index.jsp</view>
+	</mvc>
+	
+	<mvc>
+		<module-name>account</module-name>
+		<controller-name>ForgotPassword</controller-name>
+		<controller-absolute-name>mvc.controller.ForgotPasswordController</controller-absolute-name>
+		<model-name>UserModel</model-name>
+		<model-absolute-name>mvc.model.UserModel</model-absolute-name>
+		<view>/WEB-INF/view/account/forgot_password.jsp</view>
+	</mvc>
+	
+	<mvc>
+		<module-name>account</module-name>
+		<controller-name>PasswordRecovery</controller-name>
+		<controller-absolute-name>mvc.controller.PasswordRecoveryController</controller-absolute-name>
+		<model-name>UserModel</model-name>
+		<model-absolute-name>mvc.model.UserModel</model-absolute-name>
+		<view>/WEB-INF/view/account/password_recovery.jsp</view>
+	</mvc>
+
+</app>
